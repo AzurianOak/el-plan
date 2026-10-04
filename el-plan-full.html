@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0e0c">
+<meta name="color-scheme" content="dark">
+<title>El Plan — Full Details</title>
+<style>
+:root{
+  --bg:#0a0e0c; --surface:#141a16; --surface-2:#1c241f; --line:#28332c;
+  --text:#e9f2ea; --muted:#8b9c91; --accent:#79e08a; --accent-soft:rgba(121,224,138,.13);
+  --warn:#f5b544; --warn-soft:rgba(245,181,68,.13); --info:#5cc8e0; --info-soft:rgba(92,200,224,.12);
+  --r:20px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--text);font-family:'Roboto',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;
+}
+.app{max-width:640px;margin:0 auto;padding:24px 18px 48px}
+.topbar{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:20px;
+}
+.tb-title{font-size:20px;font-weight:800;letter-spacing:-.01em}
+.tb-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:18px;margin-bottom:16px;
+}
+.card h2{font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.badge-green{color:#2eda77}
+.badge-cyan{color:#14c7de}
+.badge-orange{color:#fa9d01}
+.badge-purple{color:#8c54d0}
+.badge-beige{color:#c7c3bd}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:13.5px}
+th,td{padding:10px 12px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:700;font-size:11px;letter-spacing:.05em;text-transform:uppercase}
+tr:last-child td{border-bottom:0}
+.note-box{
+  background:var(--warn-soft);border:1px solid rgba(245,181,68,.32);border-radius:14px;
+  padding:14px 16px;font-size:13.5px;line-height:1.5;margin-bottom:16px;
+}
+.note-box.info{background:var(--info-soft);border-color:rgba(92,200,224,.32)}
+.back-link{display:inline-block;margin-bottom:16px;font-size:13px;font-weight:700;color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <a class="back-link" href="el-plan.html">← Back to Tracker</a>
+  <header class="topbar">
+    <div>
+      <div class="tb-title">🏋️ Optimized Workout & Diet Plan</div>
+      <div class="tb-sub">Body Recomposition with UPFs · Lancaster University</div>
+    </div>
+  </header>
+
+  <div class="note-box info">
+    <b>Profile Summary:</b> 19, Male, 183 cm, 73 kg (BMI <span class="badge-green">21.8</span>). Goal: Body recomp (aggressive deficit). Vegan, UPF-inclusive, <span class="badge-orange">£43/week</span> budget at Sainsbury's. Gym: Lancaster Uni. Sleep: 7–9 hrs. Protein powder: SCI-MX Pro V-Gain (Raspberry Cheesecake).
+  </div>
+
+  <div class="card">
+    <h2>Section 1: Weekly Workout Schedule</h2>
+    <table>
+      <thead><tr><th>Day</th><th>Focus</th><th>Key Exercises</th><th>Cardio</th></tr></thead>
+      <tbody>
+        <tr><td>🍑 <b>MON</b></td><td>Glutes + Core</td><td>Hip thrust (3x12), Goblet squat (3x10), RDL (3x8), Forward lunge (2x10), Cable kickback (2x15), Plank (2x45s)</td><td>Run 10 min</td></tr>
+        <tr><td>🚴 <b>TUE</b></td><td>Cardio HIIT</td><td>Bike 10 min, Climb Glutes 10 min (Level 2), Run 10 min, Skillrow 25 min (20 spm)</td><td>—</td></tr>
+        <tr><td>💪 <b>WED</b></td><td>Upper Push</td><td>DB Chest press (3x10), Shoulder press (2x12), DB Chest press (2x12), Tricep dips (2x30), Cable pushdown (2x15)</td><td>—</td></tr>
+        <tr><td>😴 <b>THU</b></td><td>Full Rest</td><td>Prioritise 7–9 hours sleep</td><td>—</td></tr>
+        <tr><td>🦵 <b>FRI</b></td><td>Lower Hams/Quads</td><td>Deadlift (3x8), Leg press (3x15), Leg curl (3x10), Leg extension (2x15), Glute bridge (2x15), Calf raise (3x15)</td><td>Run 15 min</td></tr>
+        <tr><td>🎯 <b>SAT</b></td><td>Upper Pull</td><td>Single arm row (3x10), Pulldown (2x12), Face pull (2x15), Biceps curl (2x15), Russian twist (2x20s)</td><td>—</td></tr>
+        <tr><td>🚶 <b>SUN</b></td><td>Active Recovery</td><td>Bike 5 km (Level 6)</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Section 2: Mixing UPF and Non-UPF Foods</h2>
+    <table>
+      <thead><tr><th>Combination</th><th>Kcal</th><th>Protein</th><th>Why it works</th></tr></thead>
+      <tbody>
+        <tr><td>Beyond Burger + spinach in roll</td><td>~400</td><td><span class="badge-green">~25g</span></td><td>Adds fibre, iron, vitamin K from spinach</td></tr>
+        <tr><td>Sausage Roll + 100g Nuggets + spinach</td><td>~560</td><td><span class="badge-green">~21g</span></td><td>Adds fibre and micronutrients without removing UPFs</td></tr>
+        <tr><td>Alpro Yogurt + banana</td><td>~269</td><td><span class="badge-green">~16g</span></td><td>Adds potassium, fibre, vitamin B6</td></tr>
+        <tr><td>Protein Shake + apple</td><td>~255</td><td><span class="badge-green">~39.5g</span></td><td>Adds fibre, vitamin C, improves satiety</td></tr>
+        <tr><td>Katsu Fillet in roll + spinach + apple</td><td>~460</td><td><span class="badge-green">~16.5g</span></td><td>Adds fibre, vitamin C, iron</td></tr>
+        <tr><td>Beyond Korean BBQ + chips + spinach + banana</td><td>~815</td><td><span class="badge-green">~23.5g</span></td><td>Adds fibre, potassium, vitamin C</td></tr>
+        <tr><td>2x No Beef Burgers + 100g Nuggets + spinach + apple</td><td>~575</td><td><span class="badge-green">~36.5g</span></td><td>Adds fibre, vitamin C, iron</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Section 3: Sainsbury's Shopping List (Summary)</h2>
+    <table>
+      <thead><tr><th>Category</th><th>Items</th><th>Cost</th></tr></thead>
+      <tbody>
+        <tr><td>🧊 Frozen</td><td>Sausage rolls, nuggets, chips, Beyond burgers</td><td><span class="badge-orange">£17.55</span></td></tr>
+        <tr><td>❄️ Chilled</td><td>Alpro yogurt, rolls, Vegetarian Butcher fillets, tofu</td><td><span class="badge-orange">£20.12</span></td></tr>
+        <tr><td>🥫 Dry Goods</td><td>SCI-MX protein powder, lentils, chickpeas, chia, flax</td><td><span class="badge-orange">£34.74</span></td></tr>
+        <tr><td>🥬 Produce & Nuts</td><td>Spinach, bananas, apples, raspberries, kale, Brazil nuts, walnuts</td><td><span class="badge-orange">£9.54</span></td></tr>
+        <tr><td>🥛 Plant Milks</td><td>Soya, oat, almond (own-brand)</td><td><span class="badge-orange">£4.15</span></td></tr>
+        <tr><td>💊 Supplements</td><td>B12, Omega-3</td><td><span class="badge-orange">£7.00</span></td></tr>
+        <tr><td><b>TOTAL</b></td><td><b>Amortised weekly consumable estimate</b></td><td><b><mark style="background:#444fad;color:#fff">~£44.43</mark></b></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Section 4: Micronutrient & Hydration Protocol</h2>
+    <table>
+      <thead><tr><th>Nutrient</th><th>Target</th><th>Source / Notes</th></tr></thead>
+      <tbody>
+        <tr><td><b>Vitamin B12</b></td><td>100 µg daily</td><td>Non-negotiable. Sainsbury's B12 100 µg ×60 = 60 days. Also in fortified plant milks.</td></tr>
+        <tr><td><b>Vitamin D3</b></td><td>10 µg (400 IU) floor</td><td>Lichen-derived. Adjust by season, latitude, blood labs.</td></tr>
+        <tr><td><b>Omega-3</b></td><td>250–500 mg DHA/EPA</td><td>Algal oil daily. Also walnuts, chia, ground flax (ALA).</td></tr>
+        <tr><td><b>Iodine</b></td><td>Measured</td><td>Iodised salt or supplement. Do not assume adequate intake.</td></tr>
+        <tr><td><b>Selenium</b></td><td>1–2 Brazil nuts/day</td><td>Never exceed 5–6 nuts daily (255 µg upper limit).</td></tr>
+        <tr><td><b>Iron / Zinc</b></td><td>Pair with vit C</td><td>Soak legumes to reduce phytates. Lentils, chickpeas.</td></tr>
+        <tr><td><b>Calcium</b></td><td>Fortified sources</td><td>Plant milks, calcium-set tofu, kale, chia, greens.</td></tr>
+        <tr><td><b>Choline</b></td><td>Soy, quinoa, broccoli</td><td>Tofu and soya milk are good sources.</td></tr>
+        <tr><td><b>Hydration</b></td><td>Drink to thirst</td><td>Up to 2 L Dr Pepper Zero daily acceptable; water primary.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Section 5: Progression & Recovery</h2>
+    <table>
+      <tbody>
+        <tr><td><b>Sleep</b></td><td>7–9 hours nightly. Non-negotiable for recomposition.</td></tr>
+        <tr><td><b>Deload</b></td><td>Every 6–8 weeks, reduce volume by 40–50% for one week.</td></tr>
+        <tr><td><b>Progressive overload</b></td><td>+2.5–5% weight when all prescribed reps completed with good form.</td></tr>
+        <tr><td><b>Cardio</b></td><td>60–70% max HR to preserve muscle while in a deficit.</td></tr>
+        <tr><td><b>Fibre</b></td><td>Handful of spinach or kale in every roll; one piece of fruit daily.</td></tr>
+        <tr><td><b>UPF management</b></td><td>UPFs retained. Wholefood add-ons are non-negotiable for micronutrients.</td></tr>
+        <tr><td><b>Cost management</b></td><td>Own-brand UPFs. Batch-cook. Soak dried legumes vs canned.</td></tr>
+        <tr><td><b>Recovery</b></td><td>If excessively fatigued, +100–200 kcal from complex carbs on training days.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <a class="back-link" href="el-plan.html">← Back to Tracker</a>
+</div>
+</body>
+</html>

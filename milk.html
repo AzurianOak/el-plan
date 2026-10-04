@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0e0c">
+<meta name="color-scheme" content="dark">
+<title>Plant Milk Rotation Protocol</title>
+<style>
+:root{
+  --bg:#0a0e0c; --surface:#141a16; --surface-2:#1c241f; --line:#28332c;
+  --text:#e9f2ea; --muted:#8b9c91; --accent:#79e08a; --accent-soft:rgba(121,224,138,.13);
+  --warn:#f5b544; --warn-soft:rgba(245,181,68,.13); --info:#5cc8e0; --info-soft:rgba(92,200,224,.12);
+  --r:20px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--text);font-family:'Roboto',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;
+}
+.app{max-width:640px;margin:0 auto;padding:24px 18px 48px}
+.topbar{display:flex;align-items:center;justify-content:between;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.tb-title{font-size:20px;font-weight:800}
+.tb-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px}
+.card h2{font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+.badge-green{color:#2eda77} .badge-cyan{color:#14c7de} .badge-orange{color:#fa9d01} .badge-purple{color:#8c54d0} .badge-beige{color:#c7c3bd}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:13px}
+th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:700;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase}
+tr:last-child td{border-bottom:0}
+.note-box{background:var(--info-soft);border:1px solid rgba(92,200,224,.32);border-radius:14px;padding:14px 16px;font-size:13.5px;line-height:1.5;margin-bottom:16px}
+.back-link{display:inline-block;margin-bottom:16px;font-size:13px;font-weight:700;color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <a class="back-link" href="el-plan.html">← Back to Tracker</a>
+  <header class="topbar">
+    <div>
+      <div class="tb-title">🥛 Plant Milk Rotation Protocol</div>
+      <div class="tb-sub">Own-brand & Branded Reference Tables</div>
+    </div>
+  </header>
+
+  <div class="note-box">
+    Rotate these plant milks through the week to maximise nutritional benefit. All are fortified with <span class="badge-cyan">B12, calcium, vitamin D, and iodine</span>[cite: 3].
+  </div>
+
+  <div class="card">
+    <h2>Quick Picks</h2>
+    <table>
+      <thead><tr><th>Need</th><th>Winner</th><th>Why</th><th>Price</th></tr></thead>
+      <tbody>
+        <tr><td>🥇 <b>Best overall</b></td><td><b>Oatly Barista Edition</b>[cite: 3]</td><td>Formulated for hot drinks; no splitting[cite: 3]</td><td><span class="badge-orange">~£2.75–£2.95</span>[cite: 3]</td></tr>
+        <tr><td>💸 <b>Best value</b></td><td>Sainsbury's Unsweetened Soya[cite: 3]</td><td>Identical fortification at <span class="badge-orange">£1.35/L</span> (~£1 cheaper)[cite: 3]</td><td><span class="badge-orange">£1.35/L</span>[cite: 3]</td></tr>
+        <tr><td>💪 <b>Most protein</b></td><td><span class="badge-green">Alpro Soya High Protein</span>[cite: 3]</td><td><span class="badge-green">6.0g per 100ml</span>[cite: 3]</td><td><span class="badge-orange">~£2.30/L</span>[cite: 3]</td></tr>
+        <tr><td>🪶 <b>Lowest calorie</b></td><td><span class="badge-beige">Alpro Almond No Sugar</span>[cite: 3]</td><td><span class="badge-beige">~13 kcal per 100ml</span>[cite: 3]</td><td><span class="badge-orange">~£2.80–£3.05</span>[cite: 3]</td></tr>
+        <tr><td>🌾 <b>Most fibre</b></td><td><span class="badge-purple">Oatly Fibre Barista</span>[cite: 3]</td><td><span class="badge-purple">5g fibre per 250ml</span>[cite: 3]</td><td><span class="badge-orange">£2.40/L</span>[cite: 3]</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Weekly Cost Estimate (Own-Brand)</h2>
+    <table>
+      <thead><tr><th>Milk Type</th><th>Days/Wk</th><th>Litres</th><th>Cost/L</th><th>Weekly Cost</th></tr></thead>
+      <tbody>
+        <tr><td>Soya</td><td>4 days[cite: 3]</td><td>1.0L[cite: 3]</td><td><span class="badge-orange">£1.35</span>[cite: 3]</td><td><span class="badge-orange">£1.35</span>[cite: 3]</td></tr>
+        <tr><td>Oat</td><td>2 days[cite: 3]</td><td>0.5L[cite: 3]</td><td><span class="badge-orange">£1.50</span>[cite: 3]</td><td><span class="badge-orange">£0.75</span>[cite: 3]</td></tr>
+        <tr><td>Almond</td><td>1 day[cite: 3]</td><td>0.25L[cite: 3]</td><td><span class="badge-orange">£1.30</span>[cite: 3]</td><td><span class="badge-orange">£0.33</span>[cite: 3]</td></tr>
+        <tr><td><b>TOTAL</b></td><td><b>7 days</b>[cite: 3]</td><td><b>1.75L</b>[cite: 3]</td><td>—</td><td><b><mark style="background:#444fad;color:#fff">£2.43</mark></b>[cite: 3]</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0e0c">
+<meta name="color-scheme" content="dark">
+<title>No-Pan Cooking Guide</title>
+<style>
+:root{
+  --bg:#0a0e0c; --surface:#141a16; --surface-2:#1c241f; --line:#28332c;
+  --text:#e9f2ea; --muted:#8b9c91; --accent:#79e08a; --accent-soft:rgba(121,224,138,.13);
+  --warn:#f5b544; --warn-soft:rgba(245,181,68,.13); --info:#5cc8e0; --info-soft:rgba(92,200,224,.12);
+  --r:20px;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{
+  background:var(--bg);color:var(--text);font-family:'Roboto',system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;
+}
+.app{max-width:640px;margin:0 auto;padding:24px 18px 48px}
+.topbar{display:flex;align-items:center;justify-content:between;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:20px}
+.tb-title{font-size:20px;font-weight:800}
+.tb-sub{font-size:13px;color:var(--muted);margin-top:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px;margin-bottom:16px}
+.card h2{font-size:15px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+table{width:100%;border-collapse:collapse;margin-top:8px;font-size:13px}
+th,td{padding:9px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:700;font-size:10.5px;letter-spacing:.05em;text-transform:uppercase}
+tr:last-child td{border-bottom:0}
+.note-box{background:var(--warn-soft);border:1px solid rgba(245,181,68,.32);border-radius:14px;padding:14px 16px;font-size:13.5px;line-height:1.5;margin-bottom:16px}
+.back-link{display:inline-block;margin-bottom:16px;font-size:13px;font-weight:700;color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <a class="back-link" href="el-plan.html">← Back to Tracker</a>
+  <header class="topbar">
+    <div>
+      <div class="tb-title">🍳 No-Pan Cooking Guide</div>
+      <div class="tb-sub">Microwave · Kettle · Air Fryer Methods</div>
+    </div>
+  </header>
+
+  <div class="note-box">
+    <b>Constraint:</b> No hob, no pan, no pot[cite: 4]. Everything in the plan cooks using just a **microwave, kettle, and air fryer**[cite: 4].
+  </div>
+
+  <div class="card">
+    <h2>Quick Reference Matrix</h2>
+    <table>
+      <thead><tr><th>Food</th><th>Microwave</th><th>Kettle</th><th>Air Fryer</th></tr></thead>
+      <tbody>
+        <tr><td><b>Red lentils</b></td><td>High 5 + med 8–10 min[cite: 4]</td><td>Boil water first[cite: 4]</td><td>—</td></tr>
+        <tr><td><b>Canned legumes</b></td><td>1–2 min[cite: 4]</td><td>—</td><td>—</td></tr>
+        <tr><td><b>Porridge oats</b></td><td>2–3 min[cite: 4]</td><td>Boil water, wait 2–3 min[cite: 4]</td><td>—</td></tr>
+        <tr><td><b>Rice</b></td><td>High 5 + med 10–12 min[cite: 4]</td><td>—</td><td>—</td></tr>
+        <tr><td><b>Sweet potato</b></td><td>Whole 5–8 min / cubes 5–7 min[cite: 4]</td><td>—</td><td>Cubes 200°C 15–20 min[cite: 4]</td></tr>
+        <tr><td><b>Tofu</b></td><td>2–3 min (soft)[cite: 4]</td><td>—</td><td>200°C 12–15 min[cite: 4]</td></tr>
+        <tr><td><b>UPFs</b></td><td>2–4 min (soft)[cite: 4]</td><td>—</td><td>Best option (pack instructions)[cite: 4]</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</body>
+</html>
